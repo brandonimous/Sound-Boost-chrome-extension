@@ -20,9 +20,4 @@ Amplificador de audio para Chrome.
 - Edita `popup.html` / `popup.js` / `content.js` y recarga la extension en `chrome://extensions/`.
 
 ## Licencia
-
-- MIT (opcional: añade un `LICENSE` si quieres especificar otra).
-
----
-
-*Proyecto personal - sencillo y rapido.*
+MIT
