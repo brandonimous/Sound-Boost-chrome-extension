@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sound Booster</title>
+
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="row">
+      <strong>Sound Booster</strong>
+
+      <div id="toggle" class="toggle" role="button" tabindex="0" aria-pressed="false">
+        <div class="dot"></div>
+        <span id="toggleText">OFF</span>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top:10px;">
+      <strong>Volume</strong>
+      <span id="value" class="value">100%</span>
+    </div>
+
+    <input id="slider" type="range" min="0" max="900" step="10" value="100" />
+
+    <button id="reset">Reset (100%)</button>
+
+    <div id="status" class="small"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
